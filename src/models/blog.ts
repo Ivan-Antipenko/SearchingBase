@@ -23,4 +23,4 @@ const userSchema = new mongoose.Schema<IBlog>({
   },
 });
 
-export default mongoose.model<IBlog>('Blog', userSchema);
+export default mongoose.model<IBlog>('Blog', userSchema, 'Blog');
